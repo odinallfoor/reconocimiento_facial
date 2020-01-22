@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/reconocimiento_facial/static/css/main.0c38f7cc.chunk.css",
-    "main.js": "/reconocimiento_facial/static/js/main.1912dd34.chunk.js",
-    "main.js.map": "/reconocimiento_facial/static/js/main.1912dd34.chunk.js.map",
+    "main.js": "/reconocimiento_facial/static/js/main.e2d253a6.chunk.js",
+    "main.js.map": "/reconocimiento_facial/static/js/main.e2d253a6.chunk.js.map",
     "runtime-main.js": "/reconocimiento_facial/static/js/runtime-main.78a605f1.js",
     "runtime-main.js.map": "/reconocimiento_facial/static/js/runtime-main.78a605f1.js.map",
     "static/css/2.eb45ad44.chunk.css": "/reconocimiento_facial/static/css/2.eb45ad44.chunk.css",
     "static/js/2.1866cde9.chunk.js": "/reconocimiento_facial/static/js/2.1866cde9.chunk.js",
     "static/js/2.1866cde9.chunk.js.map": "/reconocimiento_facial/static/js/2.1866cde9.chunk.js.map",
     "index.html": "/reconocimiento_facial/index.html",
-    "precache-manifest.f21aff6268f487ce5efeff34bfa72f41.js": "/reconocimiento_facial/precache-manifest.f21aff6268f487ce5efeff34bfa72f41.js",
+    "precache-manifest.22f805918c50d70285a7fb20471ee0bf.js": "/reconocimiento_facial/precache-manifest.22f805918c50d70285a7fb20471ee0bf.js",
     "service-worker.js": "/reconocimiento_facial/service-worker.js",
     "static/css/2.eb45ad44.chunk.css.map": "/reconocimiento_facial/static/css/2.eb45ad44.chunk.css.map",
     "static/css/main.0c38f7cc.chunk.css.map": "/reconocimiento_facial/static/css/main.0c38f7cc.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.eb45ad44.chunk.css",
     "static/js/2.1866cde9.chunk.js",
     "static/css/main.0c38f7cc.chunk.css",
-    "static/js/main.1912dd34.chunk.js"
+    "static/js/main.e2d253a6.chunk.js"
   ]
 }

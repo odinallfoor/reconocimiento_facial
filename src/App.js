@@ -3,14 +3,14 @@ import Navigation from "./components/navigation/Navigation";
 import Logo from "./components/logo/Logo";
 import ImageLinkForm from "./components/imageLinkForm/ImageLinkForm";
 import Rank from "./components/rank/Rank";
-import Particles from "react-particles-js";
+import Particles from 'react-particles-js';
 import 'tachyons';
 import './App.css';
 
 const particlesOptions = {
     particles: {
         number: {
-            value: 30,
+            value: 150,
             density: {
                 enable: true,
                 value_area: 800

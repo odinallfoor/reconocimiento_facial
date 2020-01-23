@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/reconocimiento_facial/static/css/main.0c38f7cc.chunk.css",
-    "main.js": "/reconocimiento_facial/static/js/main.e2d253a6.chunk.js",
-    "main.js.map": "/reconocimiento_facial/static/js/main.e2d253a6.chunk.js.map",
+    "main.css": "/reconocimiento_facial/static/css/main.4a940ac6.chunk.css",
+    "main.js": "/reconocimiento_facial/static/js/main.f4919844.chunk.js",
+    "main.js.map": "/reconocimiento_facial/static/js/main.f4919844.chunk.js.map",
     "runtime-main.js": "/reconocimiento_facial/static/js/runtime-main.78a605f1.js",
     "runtime-main.js.map": "/reconocimiento_facial/static/js/runtime-main.78a605f1.js.map",
     "static/css/2.eb45ad44.chunk.css": "/reconocimiento_facial/static/css/2.eb45ad44.chunk.css",
-    "static/js/2.1866cde9.chunk.js": "/reconocimiento_facial/static/js/2.1866cde9.chunk.js",
-    "static/js/2.1866cde9.chunk.js.map": "/reconocimiento_facial/static/js/2.1866cde9.chunk.js.map",
+    "static/js/2.b03fe730.chunk.js": "/reconocimiento_facial/static/js/2.b03fe730.chunk.js",
+    "static/js/2.b03fe730.chunk.js.map": "/reconocimiento_facial/static/js/2.b03fe730.chunk.js.map",
     "index.html": "/reconocimiento_facial/index.html",
-    "precache-manifest.22f805918c50d70285a7fb20471ee0bf.js": "/reconocimiento_facial/precache-manifest.22f805918c50d70285a7fb20471ee0bf.js",
+    "precache-manifest.d0978d1f74b01c0c4bc79cf5ad3adebb.js": "/reconocimiento_facial/precache-manifest.d0978d1f74b01c0c4bc79cf5ad3adebb.js",
     "service-worker.js": "/reconocimiento_facial/service-worker.js",
     "static/css/2.eb45ad44.chunk.css.map": "/reconocimiento_facial/static/css/2.eb45ad44.chunk.css.map",
-    "static/css/main.0c38f7cc.chunk.css.map": "/reconocimiento_facial/static/css/main.0c38f7cc.chunk.css.map",
-    "static/js/2.1866cde9.chunk.js.LICENSE": "/reconocimiento_facial/static/js/2.1866cde9.chunk.js.LICENSE",
+    "static/css/main.4a940ac6.chunk.css.map": "/reconocimiento_facial/static/css/main.4a940ac6.chunk.css.map",
+    "static/js/2.b03fe730.chunk.js.LICENSE": "/reconocimiento_facial/static/js/2.b03fe730.chunk.js.LICENSE",
     "static/media/penguin.png": "/reconocimiento_facial/static/media/penguin.a66bb096.png"
   },
   "entrypoints": [
     "static/js/runtime-main.78a605f1.js",
     "static/css/2.eb45ad44.chunk.css",
-    "static/js/2.1866cde9.chunk.js",
-    "static/css/main.0c38f7cc.chunk.css",
-    "static/js/main.e2d253a6.chunk.js"
+    "static/js/2.b03fe730.chunk.js",
+    "static/css/main.4a940ac6.chunk.css",
+    "static/js/main.f4919844.chunk.js"
   ]
 }

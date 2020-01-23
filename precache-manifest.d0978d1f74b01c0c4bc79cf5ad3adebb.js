@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da914e05049d600fe9516b9aa4d3fa73",
+    "revision": "b1ac65ffbcb9c2ffab545c00d717e4b2",
     "url": "/reconocimiento_facial/index.html"
   },
   {
-    "revision": "e7c9e12ffea6f2c1e0a1",
+    "revision": "9db6d05dbdd6c7dd8aa0",
     "url": "/reconocimiento_facial/static/css/2.eb45ad44.chunk.css"
   },
   {
-    "revision": "afeaedb90a6ef8b86aeb",
-    "url": "/reconocimiento_facial/static/css/main.0c38f7cc.chunk.css"
+    "revision": "e9068f4e9e1f95fc0c15",
+    "url": "/reconocimiento_facial/static/css/main.4a940ac6.chunk.css"
   },
   {
-    "revision": "e7c9e12ffea6f2c1e0a1",
-    "url": "/reconocimiento_facial/static/js/2.1866cde9.chunk.js"
+    "revision": "9db6d05dbdd6c7dd8aa0",
+    "url": "/reconocimiento_facial/static/js/2.b03fe730.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/reconocimiento_facial/static/js/2.1866cde9.chunk.js.LICENSE"
+    "url": "/reconocimiento_facial/static/js/2.b03fe730.chunk.js.LICENSE"
   },
   {
-    "revision": "afeaedb90a6ef8b86aeb",
-    "url": "/reconocimiento_facial/static/js/main.e2d253a6.chunk.js"
+    "revision": "e9068f4e9e1f95fc0c15",
+    "url": "/reconocimiento_facial/static/js/main.f4919844.chunk.js"
   },
   {
     "revision": "a98e848154c9641a890b",

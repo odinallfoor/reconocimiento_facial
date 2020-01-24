@@ -37,41 +37,62 @@ class App extends Component {
             imageUrl: '',
             box: {},
             route: 'signIn',
-            isSignedIn: false
+            isSignedIn: false,
+            boxes: [],
+            isImageLoaded: false
         }
     }
 
     calculateFaceLocation = (data) => {
-        const face = data.outputs[0].data.regions[0].region_info.bounding_box;
+        console.log('calculateFaceLocation');
+        const faces = [];
+        const vectorArray = [];
         const image = document.getElementById('inputImage');
         const width = Number(image.width);
         const heigth = Number(image.height);
-        return {
-            leftCol: face.left_col * width,
-            topRow: face.top_row * heigth,
-            rightCol: width - (face.right_col * width),
-            bottomRow: heigth - (face.bottom_row * heigth)
-        }
+
+        data.outputs.forEach(function (item) {
+            item.data.regions.forEach((cajas) => {
+                faces.push(cajas.region_info.bounding_box);
+            })
+        })
+
+        faces.forEach((item) => {
+            vectorArray.push({
+                leftCol: item.left_col * width,
+                topRow: item.top_row * heigth,
+                rightCol: width - (item.right_col * width),
+                bottomRow: heigth - (item.bottom_row * heigth)
+            })
+        })
+        console.log('Vector Array', vectorArray);
+
+        return vectorArray;
     }
 
     displayFaceBox = (box) => {
+        console.log('displayFaceBox', box);
         this.setState({box: box})
     }
 
     onInputChange = (event) => {
+        console.log('onInputChange');
         this.setState({input: event.target.value})
     }
 
     onButtonSubmit = () => {
+        console.log('onButtonSubmit');
         this.setState({imageUrl: this.state.input});
         app.models.predict(
-            Clarifai.FACE_DETECT_MODEL,
+            Clarifai.,
             this.state.input)
             .then(response => this.displayFaceBox(this.calculateFaceLocation(response)))
             .catch(err => console.error(err));
+        this.setState({isImageLoaded: true});
     }
 
     onRouteChange = (route) => {
+        console.log('onRouteChange');
         if(route === 'signedOut') {
             this.setState({isSignedIn: false})
         } else if (route === 'home') {
@@ -81,7 +102,7 @@ class App extends Component {
     }
 
     render() {
-        const { isSignedIn, imageUrl, route, box } = this.state;
+        const { isSignedIn, imageUrl, route, box, isImageLoaded } = this.state;
         return (
             <div className="App">
                 <Particles className='particles' params={particlesOptions}/>
@@ -94,7 +115,9 @@ class App extends Component {
                             onInputChange={this.onInputChange}
                             onButtonSubmit={this.onButtonSubmit}
                         />
+
                         <FaceRecognition imageUrl={imageUrl} box={box}/>
+
                     </div>
                     : (
                         this.state.route === 'signIn'

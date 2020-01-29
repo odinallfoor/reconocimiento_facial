@@ -20,10 +20,13 @@ class Signin extends React.Component  {
     }
 
     onSubmitSignIn = () => {
-        console.log(JSON.stringify({email: this.state.signInEmail,password: this.state.signInPassword}));
+        console.log('Ejecucion iniciada');
         fetch('http://localhost:3000/signin', {
             method: 'post',
-            headers: {'Content-Type': 'application/json'},
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+            },
             body: JSON.stringify({
                 email: this.state.signInEmail,
                 password: this.state.signInPassword
@@ -31,10 +34,10 @@ class Signin extends React.Component  {
         })
             .then(response => response.json())
             .then(data => {
-                console.log(" data : ",data)
-                if(data === 'Exito'){
+                if(data.status === 'ok'){
                     this.props.onRouteChange('home');
                 }
+
             })
     }
 
@@ -43,7 +46,7 @@ class Signin extends React.Component  {
         return (
             <article className='br3 ba dark-gray b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center'>
                 <main className="pa4 black-80">
-                    <form className="measure">
+                    <div className="measure">
                         <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
                             <legend className="f1 fw6 ph0 mh0">Sign In</legend>
                             <div className="mt3">
@@ -79,7 +82,7 @@ class Signin extends React.Component  {
                                 className="f6 link dim black db"
                             >Register</p>
                         </div>
-                    </form>
+                    </div>
                 </main>
             </article>
         );
